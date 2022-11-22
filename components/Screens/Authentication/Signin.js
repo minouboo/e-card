@@ -1,11 +1,8 @@
-import { View, Text, Image, StyleSheet, useState } from 'react-native'
+import { View, Text, Image, StyleSheet, Pressable } from 'react-native'
 import React from 'react'
-import LogoMyECard from '../../assets/Image/LogoMyECard.png'
-import CustomInput from '../CustomInput' 
-import CustomButton from '../CustomButton/CustomButton'
-
-
-
+import LogoMyECard from '../../../assets/Image/LogoMyECard.png'
+import CustomInput from '../../CustomInput' 
+import CustomButton from '../../CustomButton'
 
 const Signin = (props) => {
   return (
@@ -38,7 +35,6 @@ const Signin = (props) => {
 
       <CustomButton
       text="Sign In"
-      //onPress={() => {props.navigation.navigate('SignUpScreen')}}
       />
     
     </View>
